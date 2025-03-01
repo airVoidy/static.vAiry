@@ -1,0 +1,65 @@
+# Исключить папки с программами и бинарными файлами
+programms/
+*/programms/
+**/programms/
+
+# Исключить папки для установки программ (если есть)
+install/
+*/install/
+**/install/
+
+# Исключить папки с инструментами (tools или подобные, если есть)
+tools/
+*/tools/
+**/tools/
+
+# Исключить папки с бинарными артефактами сборки (build, dist, target и т.д., если есть)
+build/
+dist/
+target/
+*/build/
+*/dist/
+*/target/
+**/build/
+**/dist/
+**/target/
+
+# Исключить временные файлы и папки операционной системы
+*.tmp
+*.temp
+temp/
+*/temp/
+**/temp/
+Temp/
+*/Temp/
+**/Temp/
+tmp/
+*/tmp/
+**/tmp/
+__pycache__/
+*/__pycache__/
+**/__pycache__/
+.Python
+.vscode/
+*/.vscode/
+**/.vscode/
+
+# Исключить файлы настроек VS Code для пользователя (если вы не хотите их коммитить)
+# .vscode/settings.json
+# .vscode/launch.json
+# .vscode/tasks.json
+
+# Исключить файлы Python bytecode
+*.pyc
+*.pyo
+
+# Исключить файлы Editor backups и временные файлы
+*~
+*.swp
+*.bak
+*.tmp
+
+# Исключить логи и отладочные файлы (если есть)
+*.log
+*.out
+debug.log
