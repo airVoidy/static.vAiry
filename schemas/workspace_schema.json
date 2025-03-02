@@ -1,0 +1,255 @@
+{
+    "type": "json_schema",
+    "name": "workspace_schema",
+    "contents": [
+        {
+            "indent_level": 0,
+            "type": "folder",
+            "name": "work",
+            "contents": [
+                {
+                    "indent_level": 0,
+                    "type": "folder",
+                    "name": "backup",
+                    "contents": [
+                        {
+                            "indent_level": 1,
+                            "type": "folder",
+                            "name": "Gemini",
+                            "contents": [
+                                {
+                                    "indent_level": 2,
+                                    "type": "folder",
+                                    "name": "Gemini2_files",
+                                    "contents": [
+                                        {
+                                            "indent_level": 2,
+                                            "type": "folder",
+                                            "name": "Gemini_files",
+                                            "contents": [
+                                                {
+                                                    "indent_level": 2,
+                                                    "type": "folder",
+                                                    "name": "Gemini_АвтоматизацияJupyter_files",
+                                                    "contents": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "indent_level": 0,
+                            "type": "folder",
+                            "name": "compilers",
+                            "contents": [
+                                {
+                                    "indent_level": 0,
+                                    "type": "folder",
+                                    "name": "grammars",
+                                    "contents": [
+                                        {
+                                            "indent_level": 1,
+                                            "type": "folder",
+                                            "name": "json",
+                                            "contents": []
+                                        },
+                                        {
+                                            "indent_level": 0,
+                                            "type": "folder",
+                                            "name": "programms",
+                                            "contents": [
+                                                {
+                                                    "indent_level": 1,
+                                                    "type": "comment",
+                                                    "content": "Содержит папки с исполняемыми файлами программ. Детализация - в разделе 'links to programms'"
+                                                },
+                                                {
+                                                    "indent_level": 0,
+                                                    "type": "folder",
+                                                    "name": "schemas",
+                                                    "contents": [
+                                                        {
+                                                            "indent_level": 2,
+                                                            "type": "file",
+                                                            "name": "workspace_schema.json",
+                                                            "base_name": "workspace_schema",
+                                                            "extension": "json"
+                                                        },
+                                                        {
+                                                            "indent_level": 2,
+                                                            "type": "file",
+                                                            "name": "workspace_schema.md",
+                                                            "base_name": "workspace_schema",
+                                                            "extension": "md"
+                                                        },
+                                                        {
+                                                            "indent_level": 0,
+                                                            "type": "folder",
+                                                            "name": "temp",
+                                                            "contents": [
+                                                                {
+                                                                    "indent_level": 2,
+                                                                    "type": "file",
+                                                                    "name": "fix_test_imports.py",
+                                                                    "base_name": "fix_test_imports",
+                                                                    "extension": "py"
+                                                                },
+                                                                {
+                                                                    "indent_level": 2,
+                                                                    "type": "file",
+                                                                    "name": "set_pythonpath.py",
+                                                                    "base_name": "set_pythonpath",
+                                                                    "extension": "py"
+                                                                },
+                                                                {
+                                                                    "indent_level": 1,
+                                                                    "type": "folder",
+                                                                    "name": "cell_by_cell_codegen",
+                                                                    "contents": [
+                                                                        {
+                                                                            "indent_level": 3,
+                                                                            "type": "file",
+                                                                            "name": "json_logic.md",
+                                                                            "base_name": "json_logic",
+                                                                            "extension": "md"
+                                                                        },
+                                                                        {
+                                                                            "indent_level": 3,
+                                                                            "type": "file",
+                                                                            "name": "markdown_logic.md",
+                                                                            "base_name": "markdown_logic",
+                                                                            "extension": "md"
+                                                                        },
+                                                                        {
+                                                                            "indent_level": 1,
+                                                                            "type": "folder",
+                                                                            "name": "gemini",
+                                                                            "contents": []
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "indent_level": 0,
+                                                                    "type": "folder",
+                                                                    "name": "utils",
+                                                                    "contents": [
+                                                                        {
+                                                                            "indent_level": 1,
+                                                                            "type": "folder",
+                                                                            "name": "python",
+                                                                            "contents": [
+                                                                                {
+                                                                                    "indent_level": 3,
+                                                                                    "type": "file",
+                                                                                    "name": "cmd_utils.py",
+                                                                                    "base_name": "cmd_utils",
+                                                                                    "extension": "py"
+                                                                                },
+                                                                                {
+                                                                                    "indent_level": 3,
+                                                                                    "type": "file",
+                                                                                    "name": "convert_md_to_json.py",
+                                                                                    "base_name": "convert_md_to_json",
+                                                                                    "extension": "py"
+                                                                                },
+                                                                                {
+                                                                                    "indent_level": 3,
+                                                                                    "type": "file",
+                                                                                    "name": "env_utils.py",
+                                                                                    "base_name": "env_utils",
+                                                                                    "extension": "py"
+                                                                                },
+                                                                                {
+                                                                                    "indent_level": 3,
+                                                                                    "type": "file",
+                                                                                    "name": "file_utils.py",
+                                                                                    "base_name": "file_utils",
+                                                                                    "extension": "py"
+                                                                                },
+                                                                                {
+                                                                                    "indent_level": 3,
+                                                                                    "type": "file",
+                                                                                    "name": "fs_utils.py",
+                                                                                    "base_name": "fs_utils",
+                                                                                    "extension": "py"
+                                                                                },
+                                                                                {
+                                                                                    "indent_level": 3,
+                                                                                    "type": "file",
+                                                                                    "name": "generate_schema.py",
+                                                                                    "base_name": "generate_schema",
+                                                                                    "extension": "py"
+                                                                                },
+                                                                                {
+                                                                                    "indent_level": 2,
+                                                                                    "type": "folder",
+                                                                                    "name": "tests",
+                                                                                    "contents": [
+                                                                                        {
+                                                                                            "indent_level": 4,
+                                                                                            "type": "file",
+                                                                                            "name": "test_env_utils.py",
+                                                                                            "base_name": "test_env_utils",
+                                                                                            "extension": "py"
+                                                                                        },
+                                                                                        {
+                                                                                            "indent_level": 4,
+                                                                                            "type": "file",
+                                                                                            "name": "test_fs_utils.py",
+                                                                                            "base_name": "test_fs_utils",
+                                                                                            "extension": "py"
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "utils_py": [
+        "cmd_utils",
+        "convert_md_to_json",
+        "env_utils",
+        "file_utils",
+        "fs_utils",
+        "generate_schema"
+    ],
+    "indent_level": 0,
+    "programms_links": [
+        {
+            "name": "git",
+            "links": [
+                "git-bash.exe",
+                "git-cmd.exe"
+            ]
+        },
+        {
+            "name": "Microsoft VS Code",
+            "links": [
+                "Code.exe"
+            ]
+        },
+        {
+            "name": "vpn",
+            "links": [
+                "\\nekoray\\nekobox.exe"
+            ]
+        }
+    ]
+}

@@ -1,209 +1,52 @@
 work
-    schema.md
 backup
     Gemini
-        Gemini.html
-        Gemini2.html
-        Gemini_АвтоматизацияJupyter.html
-        автоматизация Jupyter.txt
         Gemini2_files
-            app.html
-            bscframe.html
-            cb=gapi.loaded_0
-            common.js
-            css2
-            gemini_sparkle_red_4ed1cbfcbc6c9e84c31b987da73fc4168aec8445.svg
-            gtm.js
-            highlight.pack.js
-            js
-            lazy.min.js
-            m=hfcr
-            m=_b
-            m=_b,_tp
-            main.js
-            RotateCookiesPage.html
-            rs=AA2YrTtNk2aZJ51QiD8lNS04_Z_47poXsg
-            rs=AA2YrTvC8e7dUykGaYWUlzibNdiq-UYo6g
-            unnamed(1).jpg
-            unnamed.jpg
-            util.js
         Gemini_files
-            app.html
-            bscframe.html
-            cb=gapi.loaded_0
-            common.js
-            css2
-            favicon-tbn
-            favicon-tbn(1)
-            favicon-tbn(2)
-            favicon-tbn(3)
-            favicon-tbn(4)
-            favicon-tbn(5)
-            favicon-tbn(6)
-            gemini_sparkle_red_4ed1cbfcbc6c9e84c31b987da73fc4168aec8445.svg
-            gtm.js
-            highlight.pack.js
-            images
-            images(1)
-            images(2)
-            images(3)
-            images(4)
-            images(5)
-            images(6)
-            images(7)
-            js
-            lazy.min.js
-            m=hfcr
-            m=_b
-            m=_b,_tp
-            main.js
-            RotateCookiesPage.html
-            rs=AA2YrTtNk2aZJ51QiD8lNS04_Z_47poXsg
-            rs=AA2YrTvC8e7dUykGaYWUlzibNdiq-UYo6g
-            unnamed(1).jpg
-            unnamed(10).jpg
-            unnamed(11).jpg
-            unnamed(2).jpg
-            unnamed(3).png
-            unnamed(4).png
-            unnamed(5).png
-            unnamed(6).png
-            unnamed(7).png
-            unnamed(8).png
-            unnamed(9).png
-            unnamed.jpg
-            unnamed.png
-            util.js
         Gemini_АвтоматизацияJupyter_files
-            app.html
-            bscframe.html
-            cb=gapi.loaded_0
-            common.js
-            css2
-            favicon-tbn
-            favicon-tbn(1)
-            favicon-tbn(2)
-            favicon-tbn(3)
-            favicon-tbn(4)
-            favicon-tbn(5)
-            favicon-tbn(6)
-            gemini_sparkle_red_4ed1cbfcbc6c9e84c31b987da73fc4168aec8445.svg
-            gtm.js
-            highlight.pack.js
-            images
-            images(1)
-            images(2)
-            images(3)
-            images(4)
-            images(5)
-            images(6)
-            images(7)
-            js
-            lazy.min.js
-            m=hfcr
-            m=_b
-            m=_b,_tp
-            main.js
-            RotateCookiesPage.html
-            rs=AA2YrTtNk2aZJ51QiD8lNS04_Z_47poXsg
-            rs=AA2YrTvC8e7dUykGaYWUlzibNdiq-UYo6g
-            unnamed(1).jpg
-            unnamed(10).jpg
-            unnamed(11).jpg
-            unnamed(2).jpg
-            unnamed(3).png
-            unnamed(4).png
-            unnamed(5).png
-            unnamed(6).png
-            unnamed(7).png
-            unnamed(8).png
-            unnamed(9).png
-            unnamed.jpg
-            unnamed.png
-            util.js
 compilers
-    endpoint_schema
 grammars
     json
-        McKeeman.txt
 programms
-    nekobox.lnk
-    vpn
-        endpoint_schema
-        nekoray
-            dxcompiler.dll
-            dxil.dll
-            geoip.dat
-            geoip.db
-            geosite.dat
-            geosite.db
-            libcrypto-3-x64.dll
-            libssl-3-x64.dll
-            nekobox.exe
-                -> nekobox.exe #link in programs!
-                [link: $workdir call programm.nekobox]
-                [comment: Исполняемый файл Nekobox VPN клиента]
-            nekobox.png
-            nekobox_core.exe
-            Qt6Core.dll
-            Qt6Gui.dll
-            Qt6Network.dll
-            Qt6Svg.dll
-            Qt6Widgets.dll
-            qtbase_zh_CN.qm
-            updater.exe
-            config
-                neko.log
-                dashboard
-                    index.html
-                groups
-                    0.json
-                    1.json
-                    nekobox.json
-                    pm.json
-                profiles
-                    2.json
-                routes_box
-                    Default
-            generic
-                qtuiotouchplugin.dll
-            iconengines
-                qsvgicon.dll
-            imageformats
-                qgif.dll
-                qicns.dll
-                qico.dll
-                qjpeg.dll
-                qsvg.dll
-                qtga.dll
-                qtiff.dll
-                qwbmp.dll
-                qwebp.dll
-            networkinformation
-                qnetworklistmanager.dll
-            platforms
-                qwindows.dll
-            styles
-                qmodernwindowsstyle.dll
-            tls
-                qcertonlybackend.dll
-                qopensslbackend.dll
-                qschannelbackend.dll
+    [comment: Содержит папки с исполняемыми файлами программ. Детализация - в разделе 'links to programms']
 schemas
-    workspace_schema.md
+    workspace_schema.json #.json file
+        workspace_schema
+    workspace_schema.md #.md file
+        workspace_schema
 temp
-    notes.txt
-    Текстовый документ.txt
+    fix_test_imports.py #.py file
+        fix_test_imports
+    set_pythonpath.py #.py file
+        set_pythonpath
     cell_by_cell_codegen
-        json_logic.md
-        markdown_logic.md
+        json_logic.md #.md file
+            json_logic
+        markdown_logic.md #.md file
+            markdown_logic
     gemini
 utils
     python
-        ->python.exe #is PATH call!
-        [comment: Вызовы Python интерпретатора]
-        convert_md_to_json.py
-        generate_md_schema.py
+        cmd_utils.py #.py file
+            cmd_utils
+        convert_md_to_json.py #.py file
+            convert_md_to_json
+        env_utils.py #.py file
+            env_utils
+        file_utils.py #.py file
+            file_utils
+        fs_utils.py #.py file
+            fs_utils
+        generate_schema.py #.py file
+            generate_schema
+        tests
+            test_env_utils.py #.py file
+                test_env_utils
+            test_fs_utils.py #.py file
+                test_fs_utils
 
 [#links to programms
-nekobox #link to nekobox.exe]
+git #link to git-bash.exe #link to git-cmd.exe
+Microsoft VS Code #link to Code.exe
+vpn #link to \nekoray\nekobox.exe
+]
